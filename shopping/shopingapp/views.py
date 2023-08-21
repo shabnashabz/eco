@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import get_object_or_404, redirect, render
-from django.urls import reverse_lazy
-from matplotlib.style import available
+# from django.urls import reverse_lazy
+# from matplotlib.style import available
 from .models import Category,Product
 from django.core.paginator import Paginator,EmptyPage,InvalidPage
 
